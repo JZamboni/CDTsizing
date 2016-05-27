@@ -4,7 +4,6 @@ class ExcelImporter:
 
     def __init__(self, filePath):
         self.filePath=filePath
+        self.excelFile = load_workbook(filePath)
 
-    def excelFile(self):
-        return load_workbook(self.filePath)
 

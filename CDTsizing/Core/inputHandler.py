@@ -29,9 +29,10 @@ class inputHandler:
     filePath = callback()
     filename, file_extension = os.path.splitext(filePath)  # File extension for use in the rest of input file.
 
-    def typeCaller(self):
+    def importCaller(self):
         if self.file_extension == ".xlsx":
-            data = ExcelImporter(filePath=self.filePath)
+            spam = ExcelImporter(filePath=self.filePath)
+
         else:
             print ("File type is not supported in this application. Please choose a different format")
 
