@@ -6,4 +6,5 @@ class ExcelImporter:
         self.filePath=filePath
         self.excelFile = load_workbook(filePath)
 
-
+    def readData(self):
+        return 1.0
