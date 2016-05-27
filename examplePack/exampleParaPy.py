@@ -17,9 +17,11 @@ from CDTsizing.Components.Aircraft.Parameters import MaCruise
 
 class exParapy(Base):
 
-    @Input(label="Cruise Mach number")
-    def MachCruise(self):
-        return MaCruise.MaCruise.getValue()
+    MachCruise = Input(0.8)
+
+    @Attribute
+    def Maaach(self):
+        return MaCruise.MaCruise.Mach()
 
 
 obj=exParapy()
