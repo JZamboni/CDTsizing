@@ -1,0 +1,21 @@
+from exampleLowerPack.exampleComponent import exampleClass
+from exampleLowerPack import exampleComponent
+# from exampleLowerPack import * Questo metodo di import non sembra funzionare!
+
+
+class example:
+
+    component = exampleClass(inputVar1=3.0, inputVar2=2.0)
+
+    somma=exampleClass.somma(component)
+    print(somma)
+
+    component2 = exampleComponent.exampleClass(2.0,5.0)
+    diff=exampleComponent.exampleClass.differenza(component2)
+    print(diff)
+
+    #path1= exampleLowerPack
+    #component2=path1.exampleComponent2
+    #diff2=exampleLowerPack.exampleComponent2.exampleClass2.differenza(component2)
+    #print(diff2)
+    #inizializzare una classe che non viene importata non sembra funzionare
