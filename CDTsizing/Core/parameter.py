@@ -1,4 +1,4 @@
-class parameter(dict):
+class Parameter(dict):
     '''
     **Superclass for all Parameters**
 
@@ -96,6 +96,38 @@ class parameter(dict):
         '''
         return self.value
 
+    # Setters
+    def setUnit(self, unit=''):
+        '''
+        Sets the unit of the parameter
+        '''
+        self.unit = unit
+        return self.unit
 
+    def setName(self, name=''):
+        '''
+        Sets the unit of the parameter
+        '''
+        self.name = name
+        return self.name
 
+    def setDiscipline(self, discipline=''):
+        '''
+        Sets the unit of the parameter
+        '''
+        self.discipline = discipline
+        return self.discipline
 
+    def setStatus(self, status=''):
+        '''
+        Sets the status of the parameter
+        '''
+        self.status = status
+        return self.status
+
+    def setValue(self, value=''):
+        '''
+        Sets the value for a parameter.
+        '''
+        self.value=value
+        return self["value"]
