@@ -7,3 +7,4 @@ class ExcelImporter:
 
     def excelFile(self):
         return load_workbook(self.filePath)
+
