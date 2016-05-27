@@ -1,7 +1,7 @@
 import os
-from openpyxl import load_workbook
 from Tkinter import *
 from tkFileDialog import askopenfilename
+from CDTsizing.Core.Importers.ExcelImporter import ExcelImporter
 
 
 class inputHandler:
@@ -29,12 +29,10 @@ class inputHandler:
     filePath = callback()
     filename, file_extension = os.path.splitext(filePath)  # File extension for use in the rest of input file.
 
-    if file_extension == ".xlsx":
-        print('file type Excel')
-        var=readExcel()
-    else:
-        print('file type is not supported')
+    def typeCaller(self):
+        if self.file_extension == ".xlsx":
+            data = ExcelImporter(filePath=self.filePath)
+        else:
+            print ("File type is not supported in this application. Please choose a different format")
 
-    def readExcel():
-        return 1.0
 

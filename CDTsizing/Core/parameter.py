@@ -59,12 +59,12 @@ class Parameter(dict):
     def restrictToBounds(self, value):
         too_small = False
         too_big = False
-        if self['lowerBound'] is not None and value < self['lowerBound']:
+        if self.lowerBound is not None and value < self.lowerBound:
             too_small = True
-        if self['lowerBound'] is not None and value > self['upperBound']:
+        if self.upperBound is not None and value > self.upperBound:
             too_big = True
 
-            # Getter
+    #### Getter ####
 
     def getUnit(self):
         '''
