@@ -14,11 +14,11 @@ class example:
     diff=exampleComponent.exampleClass.differenza(component2)
     print(diff)
 
-    #path1= exampleLowerPack
-    #component2=path1.exampleComponent2
-    #diff2=exampleLowerPack.exampleComponent2.exampleClass2.differenza(component2)
-    #print(diff2)
-    #inizializzare una classe che non viene importata non sembra funzionare
+    # path1= exampleLowerPack
+    # component2=path1.exampleComponent2
+    # diff2=exampleLowerPack.exampleComponent2.exampleClass2.differenza(component2)
+    # print(diff2)
+    # inizializzare una classe che non viene importata non sembra funzionare
 
     ###################################################################################################
     # EOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFE#
