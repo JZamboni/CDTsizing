@@ -1,8 +1,8 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
-class hCruise(parameter):
+class tailLength(parameter):
     '''
-    Cruise height
+    Length of aircraft tail-cone
 
     :Unit: [m]
     '''

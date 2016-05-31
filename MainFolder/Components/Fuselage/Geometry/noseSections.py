@@ -1,10 +1,10 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
-class fuselageDiameter(parameter):
+class noseSections(parameter):
     '''
-    Aircraft fuselage diameter
+    Assembly of sections composing the nose-cone
 
-    :Unit: [m]
+    :Unit: [ ]
     '''
 
 

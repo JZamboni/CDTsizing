@@ -1,10 +1,10 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
-class twRatio(parameter):
+class fuselageLength(parameter):
     '''
-    Aircraft Thrust to Weight ratio
+    Aircraft fuselage length
 
-    :Unit: [ ]
+    :Unit: [m]
     '''
 
 

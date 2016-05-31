@@ -1,4 +1,4 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
 class maCruise(parameter):
     '''

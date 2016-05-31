@@ -1,10 +1,10 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
-class mTOW(parameter):
+class twRatio(parameter):
     '''
-    Aircraft maximum take-off weight
+    Aircraft Thrust to Weight ratio
 
-    :Unit: [N]
+    :Unit: [ ]
     '''
 
 

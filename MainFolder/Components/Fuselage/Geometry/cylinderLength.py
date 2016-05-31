@@ -1,8 +1,8 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
-class tailLength(parameter):
+class cylinderLength(parameter):
     '''
-    Length of aircraft tail-cone
+    Length of cylinder part of aircraft fuselage
 
     :Unit: [m]
     '''

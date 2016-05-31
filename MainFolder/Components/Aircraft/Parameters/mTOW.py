@@ -1,10 +1,10 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
-class cylinderSections(parameter):
+class mTOW(parameter):
     '''
-    Assembly of sections composing the cylinder part of fuselage
+    Aircraft maximum take-off weight
 
-    :Unit: [ ]
+    :Unit: [N]
     '''
 
 

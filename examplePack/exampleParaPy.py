@@ -13,7 +13,7 @@
 
 from parapy.core import *
 from parapy.gui import *
-from CDTsizing.Components.Aircraft.Parameters import MaCruise
+from MainFolder.Components.Aircraft.Parameters import MaCruise
 
 class exParapy(Base):
 

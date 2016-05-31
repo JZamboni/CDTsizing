@@ -1,10 +1,10 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
-class tailUpAngle(parameter):
+class noseSlenderness(parameter):
     '''
-    Angle of which the symmetry line of tail-cone is raised
+    Aircraft nose slenderness, ratio between nose length and fuselage diameter
 
-    :Unit: [deg]
+    :Unit: [ ]
     '''
 
 

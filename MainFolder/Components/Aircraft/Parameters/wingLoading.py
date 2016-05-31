@@ -1,10 +1,10 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
-class fuselageLength(parameter):
+class wingLoading(parameter):
     '''
-    Aircraft fuselage length
+    Aircraft wing loading
 
-    :Unit: [m]
+    :Unit: [N/m2]
     '''
 
 

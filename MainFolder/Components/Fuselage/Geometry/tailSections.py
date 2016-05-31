@@ -1,8 +1,8 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
-class noseSections(parameter):
+class tailSections(parameter):
     '''
-    Assembly of sections composing the nose-cone
+    Assembly of sections composing the tail-cone
 
     :Unit: [ ]
     '''

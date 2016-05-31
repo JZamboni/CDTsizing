@@ -1,10 +1,10 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
-class tailDivergenceAngle(parameter):
+class tailSlenderness(parameter):
     '''
-    Angle describing tail-cone
+    Aircraft tail slenderness, ratio between tail length and fuselage diameter
 
-    :Unit: [deg]
+    :Unit: [ ]
     '''
 
 

@@ -1,8 +1,8 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
-class noseLength(parameter):
+class fuselageDiameter(parameter):
     '''
-    Length of aircraft nose-cone
+    Aircraft fuselage diameter
 
     :Unit: [m]
     '''

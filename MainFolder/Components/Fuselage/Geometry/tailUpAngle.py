@@ -1,10 +1,10 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
-class wingLoading(parameter):
+class tailUpAngle(parameter):
     '''
-    Aircraft wing loading
+    Angle of which the symmetry line of tail-cone is raised
 
-    :Unit: [N/m2]
+    :Unit: [deg]
     '''
 
 

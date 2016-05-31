@@ -1,8 +1,8 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
-class cylinderLength(parameter):
+class noseLength(parameter):
     '''
-    Length of cylinder part of aircraft fuselage
+    Length of aircraft nose-cone
 
     :Unit: [m]
     '''

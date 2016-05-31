@@ -1,10 +1,10 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
-class noseSlenderness(parameter):
+class tailDivergenceAngle(parameter):
     '''
-    Aircraft nose slenderness, ratio between nose length and fuselage diameter
+    Angle describing tail-cone
 
-    :Unit: [ ]
+    :Unit: [deg]
     '''
 
 

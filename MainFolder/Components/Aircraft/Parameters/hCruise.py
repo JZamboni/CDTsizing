@@ -1,10 +1,10 @@
-from CDTsizing.Core.Parameter import parameter
+from MainFolder.Core.Parameter import parameter
 
-class tailSlenderness(parameter):
+class hCruise(parameter):
     '''
-    Aircraft tail slenderness, ratio between tail length and fuselage diameter
+    Cruise height
 
-    :Unit: [ ]
+    :Unit: [m]
     '''
 
 

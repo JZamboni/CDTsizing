@@ -1,7 +1,7 @@
 import os
 from Tkinter import *
 from tkFileDialog import askopenfilename
-from CDTsizing.Core.Importers.ExcelImporter import ExcelImporter
+from MainFolder.Core.Importers.ExcelImporter import ExcelImporter
 
 
 class inputHandler:
