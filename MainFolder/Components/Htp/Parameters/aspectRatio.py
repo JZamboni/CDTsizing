@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class aspectRatio(parameter):
     '''
-    Wing reference surface
-    S
-    :Unit: [m2]
+    Horizontal tail plane aspect ratio
+    b2 / S
+    :Unit: [ ]
     '''
 
 

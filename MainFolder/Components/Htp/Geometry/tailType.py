@@ -1,10 +1,12 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class tailType(parameter):
     '''
-    Wing reference surface
-    S
-    :Unit: [m2]
+    Tail type, could be:
+        T tail
+        Cruciform
+        Conventional
+    :Unit: [ ]
     '''
 
 
