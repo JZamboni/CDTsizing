@@ -1,4 +1,4 @@
-class exampleClass:
+from MainFolder.Core.parameter import parameter
 
     def __init__(self, inputVar1=0.0, inputVar2=0.0):
         self.var1=inputVar1

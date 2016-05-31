@@ -1,4 +1,4 @@
-from MainFolder.Core.Parameter import parameter
+from MainFolder.Core.parameter import parameter
 
 class fuselageLength(parameter):
     '''
@@ -12,7 +12,6 @@ class fuselageLength(parameter):
         super(fuselageLength, self).__init__(name=name, value=value, unit=unit, status=status, parent=parent,
                                              discipline=discipline, upperBound=upperBound, lowerBound=lowerBound,
                                              boundaryCheck=boundaryCheck, **kwargs)
-        print(value)
 
         ###################################################################################################
         # EOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFEOFE#

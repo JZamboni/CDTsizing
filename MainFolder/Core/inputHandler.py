@@ -38,4 +38,3 @@ class inputHandler:
 
 
 myFuselageLength = fuselageLength.fuselageLength()
-print fuselageLength.fuselageLength.getValue(myFuselageLength)
