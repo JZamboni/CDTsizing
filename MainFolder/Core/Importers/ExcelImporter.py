@@ -1,5 +1,6 @@
 from openpyxl import Workbook
 from openpyxl import load_workbook
+from MainFolder.Components.Fuselage.Geometry import fuselageLength
 
 class ExcelImporter:
 
@@ -8,8 +9,13 @@ class ExcelImporter:
         self.excelFile = load_workbook(filePath)
         self.sheet=self.excelFile['Sheet1']
 
+
+
     def readData(self):
 
         wb = Workbook()
+        importValue = self.sheet['D5'].value
+        myFuselageLength=fuselageLength.fuselageLength()
+        fuselageLength.fuselageLength.setValue(myFuselageLength, value=importValue)
 
-        return self.sheet['D5'].value
+        return fuselageLength.fuselageLength.getValue(myFuselageLength)

@@ -2,7 +2,7 @@ import os
 from Tkinter import *
 from tkFileDialog import askopenfilename
 from MainFolder.Core.Importers.ExcelImporter import ExcelImporter
-
+from MainFolder.Components.Fuselage.Geometry import fuselageLength
 
 class inputHandler:
 
@@ -37,3 +37,5 @@ class inputHandler:
         print ("File type is not supported in this application. Please choose a different format")
 
 
+myFuselageLength = fuselageLength.fuselageLength()
+print fuselageLength.fuselageLength.getValue(myFuselageLength)
