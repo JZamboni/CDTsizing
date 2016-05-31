@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class taperRatio(parameter):
     '''
-    Wing reference surface
-    S
-    :Unit: [m2]
+    Horizontal tail plane taper ratio
+    chordTip / chordRoot
+    :Unit: [ ]
     '''
 
 

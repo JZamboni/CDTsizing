@@ -1,10 +1,11 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class hVertPerc(parameter):
     '''
-    Wing reference surface
-    S
-    :Unit: [m2]
+    Horizontal tail plane vertical positioning as a percentage of vertical tail plane,
+    1 = T tail
+
+    :Unit: [ ]
     '''
 
 

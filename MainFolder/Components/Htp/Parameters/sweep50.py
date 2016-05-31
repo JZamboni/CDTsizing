@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class sweep50(parameter):
     '''
-    Wing reference surface
-    S
-    :Unit: [m2]
+    Horizontal tail plane sweep angle at half chord
+
+    :Unit: [deg]
     '''
 
 

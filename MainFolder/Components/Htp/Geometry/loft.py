@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class loft(parameter):
     '''
-    Wing reference surface
-    S
-    :Unit: [m2]
+    Lofted solid between chord and tip airfoils
+
+    :Unit: [ ]
     '''
 
 
