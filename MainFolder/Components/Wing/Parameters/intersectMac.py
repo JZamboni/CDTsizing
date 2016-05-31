@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class intersectMAC(parameter):
     '''
-    Wing surface
-    S
-    :Unit: [m2]
+    Intersection between planeMAC and wing, to represent the MAC
+
+    :Unit: [ ]
     '''
 
 

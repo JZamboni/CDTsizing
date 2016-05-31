@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class sweep25(parameter):
     '''
-    Wing surface
-    S
-    :Unit: [m2]
+    Wing sweep angle at quarter chord
+
+    :Unit: [deg]
     '''
 
 

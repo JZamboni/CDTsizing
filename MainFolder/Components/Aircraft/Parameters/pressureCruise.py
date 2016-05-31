@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class pressureCruise(parameter):
     '''
-    Wing surface
-    S
-    :Unit: [m2]
+    Pressure at cruise altitude
+
+    :Unit: [Pa]
     '''
 
 

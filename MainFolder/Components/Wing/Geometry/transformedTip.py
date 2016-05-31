@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class transformedTip(parameter):
     '''
-    Wing surface
-    S
-    :Unit: [m2]
+    Wing tip airfoil translated in its right position
+
+    :Unit: [ ]
     '''
 
 

@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class taperRatio(parameter):
     '''
-    Wing surface
-    S
-    :Unit: [m2]
+    Wing taper ratio
+    chordTip / chordRoot
+    :Unit: [ ]
     '''
 
 

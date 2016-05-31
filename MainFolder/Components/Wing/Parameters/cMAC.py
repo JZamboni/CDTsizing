@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class cMAC(parameter):
     '''
-    Wing surface
-    S
-    :Unit: [m2]
+    Wing Mean Aerodynamic Chord
+
+    :Unit: [m]
     '''
 
 

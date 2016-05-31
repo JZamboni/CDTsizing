@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class curveRoot(parameter):
     '''
-    Wing surface
-    S
-    :Unit: [m2]
+    Wing root curve, given by the airfoil process
+
+    :Unit: [ ]
     '''
 
 

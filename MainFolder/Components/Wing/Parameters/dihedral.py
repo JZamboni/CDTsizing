@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class dihedral(parameter):
     '''
-    Wing surface
-    S
-    :Unit: [m2]
+    Wing dihedral angle
+
+    :Unit: [deg]
     '''
 
 

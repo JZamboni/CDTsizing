@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class tcRatio(parameter):
     '''
-    Wing surface
-    S
-    :Unit: [m2]
+    Wing average thickness to chord ratio
+
+    :Unit: [ ]
     '''
 
 
