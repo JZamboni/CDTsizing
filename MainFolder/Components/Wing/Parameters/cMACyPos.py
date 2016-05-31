@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class cMACyPos(parameter):
     '''
-    Wing surface
-    S
-    :Unit: [m2]
+    Wingspan position of MAC
+
+    :Unit: [ ]
     '''
 
 

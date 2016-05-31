@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class span(parameter):
     '''
-    Wing surface
-    S
-    :Unit: [m2]
+    Wing span
+    b
+    :Unit: [m]
     '''
 
 

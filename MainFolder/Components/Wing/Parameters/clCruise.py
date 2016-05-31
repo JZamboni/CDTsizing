@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class clCruise(parameter):
     '''
-    Wing surface
-    S
-    :Unit: [m2]
+    Wing lift coefficient in cruise
+
+    :Unit: [ ]
     '''
 
 

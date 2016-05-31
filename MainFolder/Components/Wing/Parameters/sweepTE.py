@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class sweepTE(parameter):
     '''
-    Wing surface
-    S
-    :Unit: [m2]
+    Wing sweep angle at trailing edge
+
+    :Unit: [deg]
     '''
 
 

@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class solid(parameter):
     '''
-    Wing surface
-    S
-    :Unit: [m2]
+    3D solid representation of wing
+
+    :Unit: [ ]
     '''
 
 

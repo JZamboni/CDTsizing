@@ -1,10 +1,10 @@
 from MainFolder.Core.Parameter import parameter
 
-class surface(parameter):
+class wingPosition(parameter):
     '''
-    Wing surface
-    S
-    :Unit: [m2]
+    Wing position, could be high or low wing
+
+    :Unit: [ ]
     '''
 
 
