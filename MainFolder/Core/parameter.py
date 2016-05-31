@@ -1,4 +1,4 @@
-class Parameter(dict):
+class parameter(dict):
     '''
     **Superclass for all Parameters**
 
@@ -86,7 +86,7 @@ class Parameter(dict):
 
     def getStatus(self):
         '''
-        Returns the statur of the parameter
+        Returns the status of the parameter
         '''
         return self.status
 
@@ -106,14 +106,14 @@ class Parameter(dict):
 
     def setName(self, name=''):
         '''
-        Sets the unit of the parameter
+        Sets the name of the parameter
         '''
         self.name = name
         return self.name
 
     def setDiscipline(self, discipline=''):
         '''
-        Sets the unit of the parameter
+        Sets the discipline of the parameter
         '''
         self.discipline = discipline
         return self.discipline
@@ -130,4 +130,4 @@ class Parameter(dict):
         Sets the value for a parameter.
         '''
         self.value=value
-        return self["value"]
+        return self.value
