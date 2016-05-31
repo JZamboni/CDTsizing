@@ -23,11 +23,11 @@ class inputHandler:
         name = askopenfilename()
         return name
 
-    errmsg = 'Error!'
-    Button(text='File Open', command=callback).pack(fill=X)
-
     filePath = callback()
     filename, file_extension = os.path.splitext(filePath)  # File extension for use in the rest of input file.
+
+    errmsg = 'Error!'
+    Button(text='File Open', command=callback).pack(fill=X)
 
     if file_extension == ".xlsx":
         spam = ExcelImporter(filePath=filePath)
